@@ -1,5 +1,5 @@
 # general settings
-name: train_ddcolor_l
+name: train_ddcolo_l
 model_type: ColorModel
 scale: 1
 num_gpu: 4
