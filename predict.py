@@ -88,12 +88,12 @@ class Predictor(BasePredictor):
                 return output_img
 
         self.colorizer = ImageColorizationPipeline(
-            model_path="checkpoints/ddcolor_modelscope.pth",
+            model_path="checkpoints/colour_with_apollo_modelscope.pth",
             input_size=512,
             model_size="large",
         )
         self.colorizer_tiny = ImageColorizationPipeline(
-            model_path="checkpoints/ddcolor_paper_tiny.pth",
+            model_path="checkpoints/colour_with_apollo_paper_tiny.pth",
             input_size=512,
             model_size="tiny",
         )
