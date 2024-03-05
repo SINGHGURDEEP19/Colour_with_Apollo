@@ -15,7 +15,7 @@ from gradio_imageslider import ImageSlider
 import uuid
 from PIL import Image
 
-model_path = 'modelscope/damo/cv_ddcolor_image-colorization/pytorch_model.pt'
+model_path = 'modelscope/damo/cv_colour_with_apollo_image-colorization/pytorch_model.pt'
 input_size = 512
 model_size = 'large'
 
@@ -111,7 +111,7 @@ with gr.Blocks() as demo:
   with gr.Row():
     with gr.Column():
       bw_image = gr.Image(label='Black and White Input Image')
-      btn = gr.Button('Convert using DDColor')
+      btn = gr.Button('Convert using colour_with_apollo')
     with gr.Column():
       col_image_slider = ImageSlider(position=0.5,
                                      label='Colored Image with Slider-view')
