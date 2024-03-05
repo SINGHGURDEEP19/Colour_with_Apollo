@@ -1,20 +1,10 @@
-# 🎨 DDColor
-
-Official PyTorch implementation of ICCV 2023 Paper "DDColor: Towards Photo-Realistic Image Colorization via Dual Decoders".
+# Colour_With_Apollo
 
 
-[![arXiv](https://img.shields.io/badge/arXiv-2212.11613-b31b1b.svg)](https://arxiv.org/abs/2212.11613)
-[![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-FF8000)](https://huggingface.co/piddnad/DDColor-models)
-[![ModelScope demo](https://img.shields.io/badge/%F0%9F%91%BE%20ModelScope-Demo-8A2BE2)](https://www.modelscope.cn/models/damo/cv_ddcolor_image-colorization/summary)
-[![Replicate](https://replicate.com/piddnad/ddcolor/badge)](https://replicate.com/piddnad/ddcolor)
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=piddnad/DDColor)
 
 
-> Xiaoyang Kang, Tao Yang, Wenqi Ouyang, Peiran Ren, Lingzhi Li, Xuansong Xie
->
-> *DAMO Academy, Alibaba Group*
 
-🪄 DDColor can provide vivid and natural colorization for historical black and white old photos.
+Colour_With_Apollo can provide colorization black and white photos.
 
 <p align="center">
   <img src="assets/teaser.png" width="100%">
