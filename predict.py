@@ -1,6 +1,3 @@
-# Prediction interface for Cog ⚙️
-# https://github.com/replicate/cog/blob/main/docs/python.md
-
 import cv2
 import numpy as np
 from subprocess import call
